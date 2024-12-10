@@ -1,0 +1,93 @@
+2024-12-09 20:07:41 [ERROR] Tentativa de dividir por zero
+Traceback (most recent call last):
+  File "/home/apereira/MEU_NMFSt.P/main.py", line 583, in <module>
+    construir_arvores(os.path.join("data", "out", "tmp"), os.path.join("data", "out", "Trees"),
+  File "/home/apereira/MEU_NMFSt.P/main.py", line 188, in construir_arvores
+    distance_matrix = calculator.get_distance(alignment)
+  File "/home/apereira/MEU_NMFSt.P/venv/lib/python3.10/site-packages/Bio/Phylo/TreeConstruction.py", line 566, in get_distance
+    dm = DistanceMatrix(names)
+  File "/home/apereira/MEU_NMFSt.P/venv/lib/python3.10/site-packages/Bio/Phylo/TreeConstruction.py", line 322, in __init__
+    _Matrix.__init__(self, names, matrix)
+  File "/home/apereira/MEU_NMFSt.P/venv/lib/python3.10/site-packages/Bio/Phylo/TreeConstruction.py", line 97, in __init__
+    raise ValueError("Duplicate names found")
+ValueError: Duplicate names found
+2024-12-09 20:11:00 [ERROR] Tentativa de dividir por zero
+Traceback (most recent call last):
+  File "/home/apereira/MEU_NMFSt.P/main.py", line 589, in <module>
+    matrix_subtree, max_columns, max_rows = make_matrix(os.path.join("data", "out", "Trees"), os.path.join("data", "out", "Subtrees"), "nexus")
+  File "/home/apereira/MEU_NMFSt.P/main.py", line 410, in make_matrix
+    max_columns = max(len(row) for row in matrix_subtree)
+ValueError: max() arg is an empty sequence
+2024-12-09 20:22:22 [ERROR] Tentativa de dividir por zero
+Traceback (most recent call last):
+  File "/home/apereira/MEU_NMFSt.P/main.py", line 582, in <module>
+    construir_arvores(os.path.join("data", "out", "tmp"), os.path.join("data", "out", "Trees"),
+  File "/home/apereira/MEU_NMFSt.P/main.py", line 188, in construir_arvores
+    distance_matrix = calculator.get_distance(alignment)
+  File "/home/apereira/MEU_NMFSt.P/venv/lib/python3.10/site-packages/Bio/Phylo/TreeConstruction.py", line 566, in get_distance
+    dm = DistanceMatrix(names)
+  File "/home/apereira/MEU_NMFSt.P/venv/lib/python3.10/site-packages/Bio/Phylo/TreeConstruction.py", line 322, in __init__
+    _Matrix.__init__(self, names, matrix)
+  File "/home/apereira/MEU_NMFSt.P/venv/lib/python3.10/site-packages/Bio/Phylo/TreeConstruction.py", line 97, in __init__
+    raise ValueError("Duplicate names found")
+ValueError: Duplicate names found
+2024-12-09 20:29:37 [ERROR] Tentativa de dividir por zero
+Traceback (most recent call last):
+  File "/home/apereira/MEU_NMFSt.P/main.py", line 591, in <module>
+    matrix_subtree, max_columns, max_rows = make_matrix(os.path.join("data", "out", "Trees"), os.path.join("data", "out", "Subtrees"), "nexus")
+  File "/home/apereira/MEU_NMFSt.P/main.py", line 412, in make_matrix
+    max_columns = max(len(row) for row in matrix_subtree)
+ValueError: max() arg is an empty sequence
+2024-12-09 20:30:13 [ERROR] Tentativa de dividir por zero
+Traceback (most recent call last):
+  File "/home/apereira/MEU_NMFSt.P/main.py", line 584, in <module>
+    construir_arvores(os.path.join("data", "out", "tmp"), os.path.join("data", "out", "Trees"),
+  File "/home/apereira/MEU_NMFSt.P/main.py", line 189, in construir_arvores
+    distance_matrix = calculator.get_distance(alignment)
+  File "/home/apereira/MEU_NMFSt.P/venv/lib/python3.10/site-packages/Bio/Phylo/TreeConstruction.py", line 566, in get_distance
+    dm = DistanceMatrix(names)
+  File "/home/apereira/MEU_NMFSt.P/venv/lib/python3.10/site-packages/Bio/Phylo/TreeConstruction.py", line 322, in __init__
+    _Matrix.__init__(self, names, matrix)
+  File "/home/apereira/MEU_NMFSt.P/venv/lib/python3.10/site-packages/Bio/Phylo/TreeConstruction.py", line 97, in __init__
+    raise ValueError("Duplicate names found")
+ValueError: Duplicate names found
+2024-12-09 20:53:53 [ERROR] Tentativa de dividir por zero
+Traceback (most recent call last):
+  File "/home/apereira/MEU_NMFSt.P/main.py", line 601, in <module>
+    matrix_subtree, max_columns, max_rows = make_matrix(os.path.join("data", "out", "Trees"), os.path.join("data", "out", "Subtrees"), "nexus")
+  File "/home/apereira/MEU_NMFSt.P/main.py", line 422, in make_matrix
+    max_columns = max(len(row) for row in matrix_subtree)
+ValueError: max() arg is an empty sequence
+2024-12-09 21:11:54 [ERROR] Tentativa de dividir por zero
+Traceback (most recent call last):
+  File "/home/apereira/MEU_NMFSt.P/main.py", line 601, in <module>
+    matrix_subtree, max_columns, max_rows = make_matrix(os.path.join("data", "out", "Trees"), os.path.join("data", "out", "Subtrees"), "nexus")
+  File "/home/apereira/MEU_NMFSt.P/main.py", line 422, in make_matrix
+    max_columns = max(len(row) for row in matrix_subtree)
+ValueError: max() arg is an empty sequence
+2024-12-09 22:39:33 [ERROR] Tentativa de dividir por zero
+Traceback (most recent call last):
+  File "/home/apereira/MEU_NMFSt.P/main.py", line 555, in <module>
+    files_align(algoritmo, os.path.join('data', 'full_dataset_plasmodium'), os.path.join('data', 'out', 'tmp'), *tags, **params)
+  File "/home/apereira/MEU_NMFSt.P/main.py", line 406, in files_align
+    align_sequence(algoritmo, os.path.join(input_path, file), path_out_aln, *args, **kwargs)
+  File "/home/apereira/MEU_NMFSt.P/main.py", line 270, in align_sequence
+    to_clustalw(file_out_aln)
+  File "/home/apereira/MEU_NMFSt.P/alinhadores.py", line 135, in to_clustalw
+    alignment = AlignIO.read(file, "fasta")
+  File "/home/apereira/MEU_NMFSt.P/venv/lib/python3.10/site-packages/Bio/AlignIO/__init__.py", line 386, in read
+    raise ValueError("No records found in handle") from None
+ValueError: No records found in handle
+2024-12-09 22:40:31 [ERROR] No records found in handle
+Traceback (most recent call last):
+  File "/home/apereira/MEU_NMFSt.P/main.py", line 555, in <module>
+    files_align(algoritmo, os.path.join('data', 'full_dataset_plasmodium'), os.path.join('data', 'out', 'tmp'), *tags, **params)
+  File "/home/apereira/MEU_NMFSt.P/main.py", line 406, in files_align
+    align_sequence(algoritmo, os.path.join(input_path, file), path_out_aln, *args, **kwargs)
+  File "/home/apereira/MEU_NMFSt.P/main.py", line 270, in align_sequence
+    to_clustalw(file_out_aln)
+  File "/home/apereira/MEU_NMFSt.P/alinhadores.py", line 135, in to_clustalw
+    alignment = AlignIO.read(file, "fasta")
+  File "/home/apereira/MEU_NMFSt.P/venv/lib/python3.10/site-packages/Bio/AlignIO/__init__.py", line 386, in read
+    raise ValueError("No records found in handle") from None
+ValueError: No records found in handle
